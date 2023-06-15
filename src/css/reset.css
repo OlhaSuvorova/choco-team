@@ -9,11 +9,16 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
+.list {
+  list-style: none;
 }
 
-ul {
+.link {
+  text-decoration: none;
+}
+
+ul,
+ol {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -26,10 +31,39 @@ a {
 
 button {
   cursor: pointer;
+  font-family: inherit;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+body {
+  font-family: var(--main-font-family);
+}
+
+.section {
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
+.visually-hidden {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
 }
