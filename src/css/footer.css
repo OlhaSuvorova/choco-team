@@ -113,9 +113,9 @@ justify-content: space-between;}
   @media screen and (min-width: 768px) {
     .container {
       width: 768px;
-      padding: 0 32px;
-      padding-top: 50px;
-        padding-bottom: 50px;
+      padding: 50px 32px 50px 32px;
+      /* padding-top: 50px;
+        padding-bottom: 50px; */
     }
    
         .text-part-two{
@@ -145,11 +145,11 @@ gap: 18px;}
   }
 
   @media screen and (min-width: 1200px) {
-    .container {
+    .container {padding: 0 32px;
         padding-top: 50px;
         padding-bottom: 50px;
       width: 1200px;
-      padding: 0 32px;
+      
     }
 .contact-list-footer{
     font-weight: 400;
