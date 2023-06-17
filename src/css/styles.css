@@ -17,7 +17,7 @@
 @import url('./footer.css');
 
 :root {
-  --main-font-family: 'Montserrat' sans-serif;
+  --main-font-family: 'Montserrat', sans-serif;
   --primary-text-color-theme-light: #111111;
   --primary-text-color-theme-dark: #ffffff;
   --accent-color-orange: #fd9222;

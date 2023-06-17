@@ -1,6 +1,6 @@
 .advantages {
   padding: 20px 0;
-  background-color: #1e1823;
+  background-color: var(--bg-color-dark-purple);
 }
 .container {
   width: 100%;
@@ -16,7 +16,7 @@
   letter-spacing: -0.03em;
   text-transform: uppercase;
 
-  color: #111111;
+  color: var(--primary-text-color-theme-light);
 }
 .advantages-list {
   display: flex;
@@ -42,7 +42,7 @@
   line-height: 1.2;
   margin-bottom: 18px;
 
-  color: #fff;
+  color: var(--primary-text-color-theme-dark);
 }
 .advantages-text {
   font-size: 14px;
