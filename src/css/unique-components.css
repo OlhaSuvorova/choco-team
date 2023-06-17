@@ -186,11 +186,11 @@
   .components-item {
     width: 336px;
   }
-    
+
   .components-img {
     margin-bottom: 36px;
   }
-  
+
   .components-overlay-title {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -237,12 +237,12 @@
   .container {
     width: 1200px;
   }
-  
+
   .components-section {
     padding-top: 128px;
     padding-bottom: 128px;
   }
-  
+
   .components-list {
     flex-wrap: nowrap;
     gap: 19px;
@@ -251,7 +251,7 @@
   .components-item {
     width: 270px;
   }
- 
+
   .components-overlay-title {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
