@@ -49,6 +49,14 @@
 
 /* subscribe-mobile */
 @media screen and (max-width: 767px) {
+  .container-subscribe {
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .subscribe-title {
     font-family: var(--main-font-family);
     font-weight: 600;
@@ -178,7 +186,25 @@
 }
 
 /* subscribe-desktop */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container-subscribe {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
+@media screen and (min-width: 1200px) {
+  .container-subscribe {
+    max-width: 1200px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 @media screen and (min-width: 768px) {
   .subscribe-section {
     background-image: linear-gradient(
