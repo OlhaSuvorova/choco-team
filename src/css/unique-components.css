@@ -1,9 +1,16 @@
-@media screen and (min-width: 320px), screen and (max-width: 375px) {
+
   .container {
     width: 375px;
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  @media screen and (min-width: 320px) and (max-width: 375px) {
+    .container {
+      max-width: 375px;
+    }
+  }
+  
   .components-section {
     padding-top: 72px;
     padding-bottom: 72px;
@@ -59,9 +66,11 @@
     width: 100%;
     height: 270px;
     border-radius: 15px;
-    background-color: #fd9222;
   }
 
+.components-item-orange {
+    background-color: #fd9222;
+}
   .box {
     position: relative;
     display: flex;
@@ -96,11 +105,10 @@
   }
 
   .light {
-    background-color: #ffffff;
     border: 1px solid #fd9222;
   }
 
-  .dark {
+  .components-item-dark {
     background: #1e1823;
   }
 
@@ -149,7 +157,7 @@
     color: #111111;
     width: 230px;
   }
-}
+
 
 /* =========Tab============= */
 
