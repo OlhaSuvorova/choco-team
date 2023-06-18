@@ -94,13 +94,12 @@
           font-weight: 600;
           font-size: 14px;
           line-height: 1.21;
-          letter-spacing: -0.03em;
           color: var(--primary-text-color-theme-light);
           text-align: center;
       }
       .buy-now-modal-contact-form {
           width: 100%;
-        padding-top: 32px ;
+        margin-top: 32px ;
       }
       .buy-now-per-info {
           font-family: var(--main-font-family);
@@ -112,8 +111,8 @@
           color: #000000;
           text-align: start;
          display: block;
-         padding-bottom: 8px;
-         padding-top: 18px;
+         margin-bottom: 8px;
+         margin-top: 18px;
       }
       .buy-now-per-info-name-div {
           display: flex;
@@ -312,7 +311,7 @@
   }
   .buy-now-img-btg {
     width: 96px;
-    height: 33px;
+    height: 31px;
     margin: auto 32px 18px 32px;
   }
   .buy-now-per-info {
