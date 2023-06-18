@@ -39,6 +39,7 @@
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.03em;
+  text-transform: uppercase;
 }
 
 .logo-italic {
@@ -80,13 +81,13 @@
 
 /* -------------mobile menu-------------- */
 
-.backdrop {
+.backdrop-header {
   position: fixed;
   width: 100%;
   height: 100%;
   right: 0px;
   top: 0px;
-  background: transparent;
+  background-color: transparent;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -99,7 +100,7 @@
   transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop.is-open {
+.backdrop-header.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -257,7 +258,7 @@
 
   /* -------------mobile menu tablet-------------- */
 
-  /* .backdrop {
+  /* .backdrop-header {
     position: fixed;
     width: 100%;
     height: 100%;
