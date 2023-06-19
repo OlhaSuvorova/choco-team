@@ -3,6 +3,7 @@
   padding-bottom: 72px;
 }
 
+/* mobile */
 @media screen and (max-width: 768px) {
   .container-our-products {
     max-width: 375px;
