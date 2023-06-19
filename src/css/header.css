@@ -308,6 +308,7 @@
     font-size: 14px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .header-nav-link:hover {
