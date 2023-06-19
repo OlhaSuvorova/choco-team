@@ -37,7 +37,7 @@
 
 @media screen and (min-width: 1200px) {
   .reviews_content_container {
-    padding-top: 128px;
+    /* padding-top: 128px; */
     padding-bottom: 128px;
   }
 }
