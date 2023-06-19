@@ -17,15 +17,15 @@ ol {
   margin-bottom: 0;
   padding-left: 0;
 }
-.container {
+.footer-container {
   padding: 0 20px;
   min-width: 320px;
   margin: 0 auto;
-  background-color: #1e1823;
+  background-color: var(--bg-color-dark-purple);
 }
 
 @media screen and (min-width: 375px) {
-  .container {
+  .footer-container {
     width: 375px;
     margin: 0 auto;
     padding-top: 32px;
@@ -126,7 +126,7 @@ hr {
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  .footer-container {
     width: 768px;
     padding: 50px 32px 50px 32px;
     /* padding-top: 50px;
@@ -169,7 +169,7 @@ hr {
 }
 
 @media screen and (min-width: 1200px) {
-  .container {
+  .footer-container {
     padding: 0 32px;
     padding-top: 50px;
     padding-bottom: 50px;
