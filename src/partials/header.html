@@ -1,77 +1,82 @@
-/* =================== header mobile ===================== */ /* @media screen
-and (min-width: 320px) and (max-width: 375px) { .header-container { max-width:
-375px; } } */ .header-container { margin-right: auto; margin-left: auto;
-padding-right: 32px; padding-left: 32px; max-width: 375px; display: flex;
-background-color: #fafafa; padding-top: 20px; padding-bottom: 14px;
-justify-content: space-between; } .header-logo-wraper { display: flex; }
-.header-logo { display: flex; align-items: center; } .logo-text { display:
-inline-block; margin-right: 4px; color: var(--primary-text-color-theme-light);
-font-family: var(--main-font-family); font-weight: 700; font-size: 14px;
-line-height: 1.28; letter-spacing: -0.03em; text-transform: uppercase; }
-.logo-italic { display: inline-block; font-style: italic; } .logo-svg { display:
-inline-flex; align-items: center; width: 21px; height: 21px; transition: 250ms
-cubic-bezier(0.4, 0, 0.2, 1); } .logo-svg:hover, .logo-svg:focus { width: 24px;
-height: 24px; } .header-nav { display: none; } .header-social-wraper { display:
-none; } .header-menu-button { width: 32px; height: 32px; padding: 0; border:
-none; background-color: transparent; display: inline-flex; align-items: center;
-justify-content: center; } .burger-svg { stroke:
-var(--primary-text-color-theme-light); width: 28px; height: 28px; transition:
-stroke 300ms cubic-bezier(0.4, 0, 0.2, 1); } .burger-svg:hover { stroke:
-var(--accent-color-orange); } /* -------------mobile menu-------------- */
-.backdrop-header { position: fixed; width: 100%; height: 100%; right: 0px; top:
-0px; z-index: 100; background-color: transparent; transition: opacity 250ms
-cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); }
-.is-hidden { opacity: 0; visibility: hidden; pointer-events: none; transform:
-translateX(100%); transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1); }
-.backdrop-header.is-open { opacity: 1; visibility: visible; pointer-events:
-auto; transform: translateX(0); transition: transform 300ms cubic-bezier(0.4, 0,
-0.2, 1); } .mobile-menu-wraper { display: flex; flex-direction: column;
-justify-content: space-between; position: fixed; top: 0; right: 0; width: 220px;
-height: 100%; background-color: var(--bg-color-dark-purple); } .close-menu-btn {
-position: absolute; top: 20px; right: 20px; width: 28px; height: 28px;
-background-color: transparent; border: none; padding: 0; } .close-menu-svg {
-width: 28px; height: 28px; stroke: var(--primary-text-color-theme-dark);
-transition: fill 300ms cubic-bezier(0.4, 0, 0.2, 1); } .close-menu-svg:hover,
-.close-menu-svg:focus { stroke: var(--accent-color-orange); }
-.header-nav-menu-list { display: flex; flex-direction: column; gap: 24px;
-padding-top: 136px; padding-left: 50px; } .header-nav-menu-link { position:
-relative; font-family: var(--main-font-family); color:
-var(--primary-text-color-theme-dark); font-weight: 500; font-size: 14px;
-line-height: 1.11; letter-spacing: 0.02em; transition: color 300ms
-cubic-bezier(0.4, 0, 0.2, 1); } .header-nav-menu-link:hover,
-.header-nav-menu-link:focus { color: var(--accent-color-orange); }
-.header-nav-menu-link::after { content: ''; position: absolute; width: 24px;
-height: 2px; left: 0px; bottom: -10px; background: var(--bg-color-dark-purple);
-border-radius: 2px; transition: background-color 400ms cubic-bezier(0.4, 0, 0.2,
-1); } .header-nav-menu-link:hover::after { background-color:
-var(--accent-color-orange); } .header-social-list { display: flex; gap: 18px;
-padding-left: 22px; padding-bottom: 22px; } .header-social-svg { width: 20px;
-height: 20px; fill: var(--primary-text-color-theme-dark); transition: fill 300ms
-cubic-bezier(0.4, 0, 0.2, 1); } .header-social-svg:hover,
-.header-social-svg:focus { fill: var(--accent-color-orange); } /*
-=================== header tablet ===================== */ @media screen and
-(min-width: 768px) { .header-container { max-width: 768px; padding-top: 24px;
-padding-bottom: 24px; } .logo-text { margin-right: 4px; } .burger-svg { width:
-32px; height: 32px; } .header-modal-button { width: 32px; height: 32px; } /*
--------------mobile menu tablet-------------- */ .mobile-menu-wraper { width:
-290px; } .close-menu-btn { width: 32px; height: 32px; } .close-menu-svg { width:
-32px; height: 32px; } .header-nav-menu-list { padding-top: 156px; padding-left:
-85px; } .header-social-list { padding-left: 32px; padding-bottom: 24px; }
-.header-social-svg { width: 24px; height: 24px; } } /* ===================
-header desktop ===================== */ @media screen and (min-width: 1200px) {
-.header-container { min-width: 1200px; padding-right: 32px; padding-left: 32px;
-padding-top: 24px; padding-bottom: 32px; } .header-logo-wraper { margin-right:
-188px; } .logo-text { font-size: 18px; } .logo-svg { width: 24px; height: 24px;
-} .header-nav { display: flex; align-items: center; margin-right: auto; }
-.header-nav-list { display: flex; column-gap: 24px; } .header-nav-link {
-font-family: var(--main-font-family); color:
-var(--primary-text-color-theme-light); font-weight: 500; font-size: 14px;
-line-height: 1.11; letter-spacing: 0.02em; transition: color 300ms
-cubic-bezier(0.4, 0, 0.2, 1); } .header-nav-link:hover { color:
-var(--accent-color-orange); } .header-social-wraper { display: flex;
-align-items: center; } .header-social-list { display: flex; column-gap: 18px;
-padding: 0; } .header-menu-button { display: none; } .header-social-link {
-display: flex; justify-content: center; align-items: center; }
-.header-social-svg { width: 24px; height: 24px; fill:
-var(--primary-text-color-theme-light); } .header-modal-button { display: none; }
-}
+<div class="header-container">
+    <div id="header" class="header-logo-wraper">
+        <a class="header-logo" href="">
+            <p class="logo-text"><span class="logo-italic">simply</span> chocolate</p>
+            <svg class="logo-svg">
+                <use href="/img/icons.svg#icon-logo"></use>
+            </svg>
+        </a>
+    </div>
+
+    <nav class="header-nav">
+        <ul class="header-nav-list">
+            <li class="header-nav-link"><a href="#home">Home</a></li>
+            <li class="header-nav-link"><a href="#made">How it’s made?</a></li>
+            <li class="header-nav-link"><a href="#our-products">Our products</a></li>
+            <li class="header-nav-link"><a href="#top-sellers">Top sellers</a></li>
+            <li class="header-nav-link"><a href="#loved">Chocolate is loved</a></li>
+        </ul>
+    </nav>
+    <div class="header-social-wraper">
+        <ul class="header-social-list">
+            <li class="header-social-box">
+                <a class="header-social-link" href="">
+                    <svg class="header-social-svg">
+                        <use href="/img/icons.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="header-social-box">
+                <a class="header-social-link" href="">
+                    <svg class="header-social-svg" aria-label="твітер в хедері">
+                        <use href="/img/icons.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <button class="header-menu-button js-open-menu" type="button">
+        <svg class="burger-svg">
+            <use href="/img/icons.svg#icon-burger-tab"></use>
+        </svg>
+    </button>
+</div>
+
+<div class="backdrop-header js-menu-container is-hidden">
+    <div class="mobile-menu-wraper">
+        <button type="button" class="close-menu-btn js-close-menu">
+            <svg class="close-menu-svg">
+                <use href="/img/icons.svg#icon-close-menu"></use>
+            </svg>
+        </button>
+        <div>
+            <ul class="header-nav-menu-list">
+                <li class="header-nav-menu-link"><a href="#home">Home</a></li>
+                <li class="header-nav-menu-link"><a href="#made">How it’s made?</a></li>
+                <li class="header-nav-menu-link"><a href="#our-products">Our products</a></li>
+                <li class="header-nav-menu-link"><a href="#top-sellers">Top sellers</a></li>
+                <li class="header-nav-menu-link"><a href="#loved">Chocolate is loved</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="header-social-list">
+                <li class="header-social-box">
+                    <a class="header-social-link" href="">
+                        <svg class="header-social-svg">
+                            <use href="/img/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="header-social-box">
+                    <a class="header-social-link" href="">
+                        <svg class="header-social-svg" aria-label="твітер в меню">
+                            <use href="/img/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</div>
