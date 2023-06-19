@@ -290,7 +290,15 @@
 
   .components-overlay-text {
     width: 230px;
-    text-overflow: ellipsis; 
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 9;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
   }
-  
+
+  .txt {
+    -webkit-line-clamp: 7;
+  }
+
 }
