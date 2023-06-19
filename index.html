@@ -21,11 +21,92 @@
     />
     
     <script type="module" crossorigin src="/choco-team/assets/index-dee1e958.js"></script>
-    <link rel="stylesheet" href="/choco-team/assets/index-e7651e54.css">
+    <link rel="stylesheet" href="/choco-team/assets/index-bae9a3da.css">
   </head>
   <body>
     <div class="bg-main">
-    
+    <div class="header-container">
+    <div id="header" class="header-logo-wraper">
+        <a class="header-logo" href="">
+            <p class="logo-text"><span class="logo-italic">simply</span> chocolate</p>
+            <svg class="logo-svg">
+                <use href="/choco-team/assets/icons-df8893a6.svg#icon-logo"></use>
+            </svg>
+        </a>
+    </div>
+
+    <nav class="header-nav">
+        <ul class="header-nav-list">
+            <li class="header-nav-link"><a href="#home">Home</a></li>
+            <li class="header-nav-link"><a href="#made">How it’s made?</a></li>
+            <li class="header-nav-link"><a href="#our-products">Our products</a></li>
+            <li class="header-nav-link"><a href="#top-sellers">Top sellers</a></li>
+            <li class="header-nav-link"><a href="#loved">Chocolate is loved</a></li>
+        </ul>
+    </nav>
+    <div class="header-social-wraper">
+        <ul class="header-social-list">
+            <li class="header-social-box">
+                <a class="header-social-link" href="">
+                    <svg class="header-social-svg">
+                        <use href="/choco-team/assets/icons-df8893a6.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="header-social-box">
+                <a class="header-social-link" href="">
+                    <svg class="header-social-svg" aria-label="твітер в хедері">
+                        <use href="/choco-team/assets/icons-df8893a6.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <button class="header-menu-button js-open-menu" type="button">
+        <svg class="burger-svg">
+            <use href="/choco-team/assets/icons-df8893a6.svg#icon-burger-tab"></use>
+        </svg>
+    </button>
+</div>
+
+<div class="backdrop-header js-menu-container is-hidden">
+    <div class="mobile-menu-wraper">
+        <button type="button" class="close-menu-btn js-close-menu">
+            <svg class="close-menu-svg">
+                <use href="/choco-team/assets/icons-df8893a6.svg#icon-close-menu"></use>
+            </svg>
+        </button>
+        <div>
+            <ul class="header-nav-menu-list">
+                <li class="header-nav-menu-link"><a href="#home">Home</a></li>
+                <li class="header-nav-menu-link"><a href="#made">How it’s made?</a></li>
+                <li class="header-nav-menu-link"><a href="#our-products">Our products</a></li>
+                <li class="header-nav-menu-link"><a href="#top-sellers">Top sellers</a></li>
+                <li class="header-nav-menu-link"><a href="#loved">Chocolate is loved</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="header-social-list">
+                <li class="header-social-box">
+                    <a class="header-social-link" href="">
+                        <svg class="header-social-svg">
+                            <use href="/choco-team/assets/icons-df8893a6.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="header-social-box">
+                    <a class="header-social-link" href="">
+                        <svg class="header-social-svg" aria-label="твітер в меню">
+                            <use href="/choco-team/assets/icons-df8893a6.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</div>
     <main>      
         
         <section class="advantages">
@@ -254,14 +335,9 @@
       work of art that is sure to please.
     </p>
 
-    <button
-      class="subscribe-button-open subscribe-button-mobile"
-      data-modal-open
-      type="submit"
-    >
+    <button class="subscribe-button-open subscribe-button-mobile" data-modal-open type="submit">
       Subscribe
     </button>
-  </div>
 </section>
 
 <!-- Modal -->
@@ -269,40 +345,21 @@
 <div class="backdrop is-hidden" data-modal>
   <div class="modal">
     <button type="button" class="modal-close-btn" data-modal-close>
-      <svg
-        class="modal-close-icon"
-        aria-label="modal-close"
-        width="24"
-        height="24"
-      >
+      <svg class="modal-close-icon" aria-label="modal-close" width="24" height="24">
         <use href="/choco-team/assets/icons-df8893a6.svg#icon-close-subscribe"></use>
       </svg>
     </button>
     <!-- img -->
     <div class="subscribe-list-img">
       <picture>
-        <source
-          srcset="/choco-team/assets/subscribe-chocolate@1x-d6d31ff2.jpg 1x, /choco-team/assets/subscribe-chocolate@2x-b724a962.jpg 2x"
-          media="(min-width: 1200px) "
-        />
+        <source srcset="/choco-team/assets/subscribe-chocolate@1x-d6d31ff2.jpg 1x, /choco-team/assets/subscribe-chocolate@2x-b724a962.jpg 2x" media="(min-width: 1200px) " />
 
-        <source
-          srcset="/choco-team/assets/subscribe-chocolate@1x-d6d31ff2.jpg 1x, /choco-team/assets/subscribe-chocolate@2x-b724a962.jpg 2x"
-          media="(min-width: 768px) "
-        />
+        <source srcset="/choco-team/assets/subscribe-chocolate@1x-d6d31ff2.jpg 1x, /choco-team/assets/subscribe-chocolate@2x-b724a962.jpg 2x" media="(min-width: 768px) " />
 
-        <source
-          srcset="/choco-team/assets/subscribe-chocolate-mobile@1x-2772a7dd.jpg 1x, /choco-team/assets/subscribe-chocolate-mobile@2x-d3d4dea8.jpg 2x"
-          media="(min-width: 320px) "
-        />
+        <source srcset="/choco-team/assets/subscribe-chocolate-mobile@1x-2772a7dd.jpg 1x, /choco-team/assets/subscribe-chocolate-mobile@2x-d3d4dea8.jpg 2x" media="(min-width: 320px) " />
 
-        <img
-          class="subscribe-img"
-          src="../img/subscribe/subscribe-desktop/subscribe-chocolate@1x.jpg"
-          alt="chocolate-subscribe"
-          width="538"
-          height="196"
-        />
+        <img class="subscribe-img" src="../img/subscribe/subscribe-desktop/subscribe-chocolate@1x.jpg"
+          alt="chocolate-subscribe" width="538" height="196" />
       </picture>
     </div>
 
@@ -311,18 +368,12 @@
       <span class="subscribe-span-title">new chocolate</span> first!
     </h2>
     <form>
-      <input
-        class="contact-form-input"
-        type="email"
-        name="mail"
-        pattern="[a-zA-Za-яА-ЯіІїЇґҐєЄʼ]+"
-        placeholder="Enter your email"
-      /><button class="btn-submit" type="submit">Submit</button>
+      <input class="contact-form-input" type="email" name="mail" pattern="[a-zA-Za-яА-ЯіІїЇґҐєЄʼ]+"
+        placeholder="Enter your email" /><button class="btn-submit" type="submit">Submit</button>
       <button class="btn-subscribe" type="submit">Subscribe</button>
     </form>
   </div>
 </div>
-
       </div>
     </main>
     </div>
