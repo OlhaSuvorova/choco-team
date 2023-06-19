@@ -36,6 +36,11 @@
   border: 1px solid rgba(255, 255, 255, 0.5);
   margin-bottom: 22px;
 }
+
+.advantages-icon {
+  fill: var(--accent-color-orange);
+}
+
 .advantages-title {
   font-weight: 600;
   font-size: 18px;
@@ -44,6 +49,11 @@
 
   color: var(--primary-text-color-theme-dark);
 }
+
+.advantages-item-pb {
+  padding-bottom: 16px;
+}
+
 .advantages-text {
   font-size: 14px;
   line-height: 1.2;
