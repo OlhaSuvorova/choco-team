@@ -67,3 +67,7 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
 }
+
+.bg-main {
+  background-color: #fafafa;
+}
