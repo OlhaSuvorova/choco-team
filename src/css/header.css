@@ -1,12 +1,5 @@
 /* =================== header mobile ===================== */
 
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 32px;
-  padding-left: 32px;
-}
-
 /* @media screen and (min-width: 320px) and (max-width: 375px) {
   .header-container {
     max-width: 375px;
@@ -14,6 +7,10 @@
 } */
 
 .header-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 32px;
+  padding-left: 32px;
   max-width: 375px;
   display: flex;
   background-color: #fafafa;
@@ -218,11 +215,8 @@
 /* =================== header tablet ===================== */
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-
   .header-container {
+    max-width: 768px;
     padding-top: 24px;
     padding-bottom: 24px;
   }
@@ -276,13 +270,10 @@
 /* =================== header desktop ===================== */
 
 @media screen and (min-width: 1200px) {
-  .container {
+  .header-container {
     min-width: 1200px;
     padding-right: 32px;
     padding-left: 32px;
-  }
-
-  .header-container {
     padding-top: 24px;
     padding-bottom: 32px;
   }
@@ -319,8 +310,7 @@
     letter-spacing: 0.02em;
   }
 
-  .header-nav-link:hover,
-  .header-nav-link:focus {
+  .header-nav-link:hover {
     color: var(--accent-color-orange);
   }
 
