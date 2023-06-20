@@ -3,12 +3,13 @@
   min-width: 320px;
   margin: 0 auto;
 }
+
 @media screen and (min-width: 375px) {
   .container-top-sellers {
     width: 375px;
     margin: 0 auto;
     padding-top: 72px;
-    padding-bottom: 72px;
+    /* padding-bottom: 72px; */
   }
 }
 .top-sellers-pic-two {
@@ -119,8 +120,8 @@
 @media screen and (min-width: 1200px) {
   .container-top-sellers {
     width: 1200px;
-    padding: 0 32px;
-    padding-top: 128px;
+    padding: 128px 32px 0 32px;
+    /* padding-top: 128px; */
     /* padding-bottom: 128px; */
   }
   .sellers-list-pic {
