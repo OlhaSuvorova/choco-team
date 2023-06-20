@@ -119,9 +119,9 @@
 @media screen and (min-width: 1200px) {
   .container-top-sellers {
     width: 1200px;
-    padding: 0 32px;
-    padding-top: 128px;
-    padding-bottom: 128px;
+    padding: 128px 32px 0 32px;
+    /* padding-top: 128px; */
+    /* padding-bottom: 128px; */
   }
   .sellers-list-pic {
     display: flex;
