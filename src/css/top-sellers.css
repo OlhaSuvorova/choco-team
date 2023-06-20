@@ -1,3 +1,4 @@
+
 .container-top-sellers {
   padding: 0 20px;
   min-width: 320px;
@@ -9,21 +10,14 @@
     width: 375px;
     margin: 0 auto;
     padding-top: 72px;
-    /* padding-bottom: 72px; */
+    
   }
+  
 }
-.top-sellers-pic-two {
-  position: relative;
-  top: 140px;
-}
-.text-sellers {
-  position: relative;
-  bottom: 465px;
-}
-.sellers-modal-open-btn {
-  position: relative;
-  top: 18px;
-}
+.top-sellers-button{display: flex;
+justify-content: center;}
+.sellers-picture{display: flex;}
+
 .picture-img {
   border-radius: 15px;
 }
@@ -54,7 +48,9 @@
   font-family: var(--main-font-family);
   font-weight: 600;
   border: none;
-  width: 162px;
+  min-width: 120px;
+    height: 41px;
+
   height: 50px;
   font-size: 14px;
   line-height: 1.21;
@@ -81,60 +77,63 @@
   .container-top-sellers {
     margin: 0 auto;
     width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
+.sellers-list{    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;}
+  .sellers-list-item {order: -2;}
+  
+ 
+  .sellers-list-item-text{order: 3; display: flex;}
 
-  .text-sellers {
-    position: relative;
-    bottom: 0px;
-  }
+  .sellers-list-item-btn{display: flex;
+  order: 4;}
+.sellers-modal-open-btn{  width: 162px;
+  height: 50px;
+  font-size: 18px;
+  line-height: 1.2;
+margin-top: 32px;}
+ 
 
-  .sellers-list-pic {
-    display: flex;
-    justify-content: space-between;
-  }
+.picture-img{width: 344px;}
+ 
   .text-sellers {
     max-width: 306px;
-  }
-  .text-and-button {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    margin-bottom: 0;
     margin-top: 32px;
   }
-  .sellers-modal-open-btn {
-    margin: 0;
-    position: relative;
-    top: 0;
-  }
+ 
   .title-sellers {
     margin-bottom: 50px;
     font-size: 24px;
     line-height: 1.17;
   }
 
-  .top-sellers-pic-two {
-    position: relative;
-    top: 0px;
-  }
-}
+  
 @media screen and (min-width: 1200px) {
   .container-top-sellers {
     width: 1200px;
     padding: 128px 32px 0 32px;
-    /* padding-top: 128px; */
-    /* padding-bottom: 128px; */
+ 
   }
-  .sellers-list-pic {
-    display: flex;
-    gap: 16px;
-  }
+ 
   .sellers-pic-tree {
     display: block;
   }
   .text-sellers {
     max-width: 407px;
   }
+  
+.picture-img{width: 368px;}
 }
+
+
+
+
+
+
 
 /* modal */
 
@@ -499,4 +498,5 @@
     height: 45px;
     padding: 14px 40px 14px 40px;
   }
+}
 }
