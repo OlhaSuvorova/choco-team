@@ -17,20 +17,22 @@ ol {
   margin-bottom: 0;
   padding-left: 0;
 }
-.footer-container {
+.container {
   padding: 0 20px;
   min-width: 320px;
   margin: 0 auto;
-  background-color: var(--bg-color-dark-purple);
 }
 
 @media screen and (min-width: 375px) {
-  .footer-container {
+  .container {
     width: 375px;
     margin: 0 auto;
     padding-top: 32px;
     padding-bottom: 32px;
   }
+}
+.footer {
+  background-color: #1e1823;
 }
 
 .text-part-two {
@@ -126,7 +128,7 @@ hr {
 }
 
 @media screen and (min-width: 768px) {
-  .footer-container {
+  .container {
     width: 768px;
     padding: 50px 32px 50px 32px;
     /* padding-top: 50px;
@@ -151,12 +153,13 @@ hr {
     margin-bottom: 24px;
   }
   .contact {
-    margin-left: 124px;
     margin-right: 50px;
   }
 
   .part-two-footer {
     display: flex;
+    flex-direction: row;
+    gap: 124px;
   }
   .site-nav-list-footer {
     flex-direction: row;
@@ -169,7 +172,7 @@ hr {
 }
 
 @media screen and (min-width: 1200px) {
-  .footer-container {
+  .container {
     padding: 0 32px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -194,7 +197,7 @@ hr {
   }
 
   .part-two-footer {
-    display: flex;
+    gap: 0;
     justify-content: space-between;
   }
 }
