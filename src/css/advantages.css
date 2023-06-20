@@ -59,6 +59,7 @@
   line-height: 1.2;
   letter-spacing: -0.02em;
   color: rgba(255, 255, 255, 0.7);
+  min-height: 120px;
 }
 @media screen and (min-width: 375px) {
   .container {
