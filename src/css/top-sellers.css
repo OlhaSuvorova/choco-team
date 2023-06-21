@@ -410,9 +410,8 @@ margin-top:32px ;
   @media screen and (min-width: 320px) {
     .buy-now-modal {
       width: 311px;
-    }}
-
-
+    }} 
+ 
 
   
 
@@ -426,8 +425,9 @@ margin-top:32px ;
   padding: 0;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
-}  
-.buy-now-backdrop {
+}
+
+ .buy-now-backdrop {
   opacity: 1;
   position: fixed;
   top: 50%;
@@ -438,8 +438,8 @@ margin-top:32px ;
   background-color: rgba(46, 47, 66, 0.4);
   visibility: visible;
   pointer-events: auto;
-}
-.buy-now-modal {
+} 
+ .buy-now-modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -453,7 +453,7 @@ margin-top:32px ;
   padding: 32px 24px 32px 24px;
   pointer-events: auto;
   overflow: auto;
-}
+ }
  .is-hidden {
   opacity: 0;
   visibility: hidden;
