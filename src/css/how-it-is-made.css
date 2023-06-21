@@ -25,7 +25,6 @@
   .how-it-is-made-container {
     flex-direction: column;
     align-items: center;
-    padding-bottom: 28px;
     padding-left: 20px;
     padding-right: 20px;
   }
