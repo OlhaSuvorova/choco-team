@@ -3,15 +3,6 @@
   padding-bottom: 32px;
 }
 
-.slider-our-products {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 60px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .our-products-list {
   display: flex;
   flex-wrap: wrap;
