@@ -50,7 +50,7 @@
 /* subscribe-mobile */
 @media screen and (max-width: 767px) {
   .container-subscribe {
-    max-width: 375px;
+    /* max-width: 375px; */
     padding-left: 20px;
     padding-right: 20px;
     margin-left: auto;
@@ -188,7 +188,7 @@
 /* subscribe-desktop */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .container-subscribe {
-    max-width: 768px;
+    /* max-width: 768px; */
     padding-left: 32px;
     padding-right: 32px;
     margin-left: auto;
