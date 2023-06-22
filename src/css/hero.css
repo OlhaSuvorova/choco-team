@@ -13,7 +13,19 @@
   max-width: 335px;
   height: 620px;
   margin: 0 auto;
-  margin-bottom: 72px; 
+  margin-bottom: 72px;
+}
+
+.visually-hidden {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
@@ -148,15 +160,15 @@
   fill: var(--accent-color-orange);
 }
 .hero-button-scroll:hover,
-.hero-button-scroll:focus{
+.hero-button-scroll:focus {
   background: var(--accent-color-orange);
 }
-.hero-description:hover ,
-.hero-description:focus  {
+.hero-description:hover,
+.hero-description:focus {
   color: var(--accent-color-orange);
 }
 .hero-icon-mobile:hover,
-.hero-icon-mobile:focus{
+.hero-icon-mobile:focus {
   fill: var(--primary-text-color-theme-dark);
 }
 /* 768-1200 */
