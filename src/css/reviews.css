@@ -4,8 +4,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 100px;
-  padding-bottom: 100px;
   background-color: #fafafa;
   flex-wrap: wrap;
   /* overflow: hidden; */
@@ -15,8 +13,8 @@
   padding-top: 72px;
   padding-bottom: 72px;
 
-  @media screen and (min-width: 428px) {
-    width: 428px;
+  @media screen and (max-width: 767px) {
+    width: 335px;
   }
 
   @media screen and (min-width: 768px) {
@@ -101,7 +99,7 @@
   position: relative;
   overflow: hidden;
   min-height: 252px;
-  min-width: 375px;
+  /* min-width: 335px; */
   flex-direction: row;
 }
 
@@ -112,7 +110,7 @@
     overflow: hidden;
     gap: 24px;
 
-    min-width: 375px;
+    /* min-width: 375px; */
     flex-direction: row;
   }
 }
@@ -156,7 +154,7 @@
 
 .reviews_card {
   z-index: 111;
-  max-width: 375px;
+  max-width: 335px;
 }
 
 @media screen and (min-width: 768px) {
