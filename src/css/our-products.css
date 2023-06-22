@@ -212,10 +212,9 @@
 }
 
 .swiper-pagination-active {
-  display: flex;
   width: 28px;
   height: 13px;
-  background: #fd9222;
+  background-color: #fd9222;
   border-radius: 20px;
 }
 .swiper-pagination-products {
@@ -234,81 +233,57 @@
 }
 
 .swiper-pagination {
-  display: flex;
   width: 13px;
   height: 13px;
-  background: rgba(17, 17, 17, 0.1);
+  background-color: rgba(17, 17, 17, 0.1);
   border-radius: 50%;
-  margin: 0;
-  gap: 4px;
 }
 
 .swiper-pagination-1 {
-  display: flex;
   width: 13px;
   height: 13px;
-  background: rgba(17, 17, 17, 0.1);
+  background-color: rgba(17, 17, 17, 0.1);
   border-radius: 50%;
-  margin: 0;
-  gap: 4px;
 }
 
 .swiper-pagination-2 {
-  display: flex;
   width: 13px;
   height: 13px;
-  background: rgba(17, 17, 17, 0.1);
+  background-color: rgba(17, 17, 17, 0.1);
   border-radius: 50%;
-  margin: 0;
-  gap: 4px;
 }
 
 .swiper-pagination-3 {
-  display: flex;
   width: 13px;
   height: 13px;
-  background: rgba(17, 17, 17, 0.1);
+  background-color: rgba(17, 17, 17, 0.1);
   border-radius: 50%;
-  margin: 0;
-  gap: 4px;
 }
 
 .swiper-pagination-4 {
-  display: flex;
   width: 13px;
   height: 13px;
-  background: rgba(17, 17, 17, 0.1);
+  background-color: rgba(17, 17, 17, 0.1);
   border-radius: 50%;
-  margin: 0;
-  gap: 4px;
 }
 
 .swiper-pagination-5 {
-  display: flex;
   width: 13px;
   height: 13px;
-  background: rgba(17, 17, 17, 0.1);
+  background-color: rgba(17, 17, 17, 0.1);
   border-radius: 50%;
-  margin: 0;
-  gap: 4px;
 }
 
 .swiper-pagination-6 {
-  display: flex;
   width: 13px;
   height: 13px;
-  background: rgba(17, 17, 17, 0.1);
+  background-color: rgba(17, 17, 17, 0.1);
   border-radius: 50%;
-  margin: 0;
-  gap: 4px;
 }
 
 .swiper-pagination-7 {
-  display: flex;
   width: 13px;
   height: 13px;
-  background: rgba(17, 17, 17, 0.1);
+  background-color: rgba(17, 17, 17, 0.1);
   border-radius: 50%;
-  margin: 0;
-  gap: 4px;
 }
