@@ -15,6 +15,7 @@
 @import url('./reviews.css');
 @import url('./subscribe.css');
 @import url('./footer.css');
+@import url('./all-modal.css');
 
 :root {
   --main-font-family: 'Montserrat', sans-serif;
