@@ -99,7 +99,7 @@
   position: relative;
   overflow: hidden;
   min-height: 252px;
-  min-width: 335px;
+  /* min-width: 335px; */
   flex-direction: row;
 }
 
