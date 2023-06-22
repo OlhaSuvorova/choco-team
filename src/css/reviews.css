@@ -110,7 +110,7 @@
     overflow: hidden;
     gap: 24px;
 
-    min-width: 375px;
+    /* min-width: 375px; */
     flex-direction: row;
   }
 }
