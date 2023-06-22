@@ -147,6 +147,7 @@ margin-top:32px ;
 
 /* modal */
 
+
         .visually-hidden {
             overflow: hidden;
             white-space: nowrap;
@@ -415,7 +416,10 @@ margin-top:32px ;
 
   
 
-.visually-hidden {
+
+
+ .visually-hidden {
+
   overflow: hidden;
   white-space: nowrap;
   width: 1px;
@@ -425,9 +429,12 @@ margin-top:32px ;
   padding: 0;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
+
 }
 
- .buy-now-backdrop {
+
+.buy-now-backdrop {
+
   opacity: 1;
   position: fixed;
   top: 50%;
