@@ -63,8 +63,8 @@
   align-items: flex-start;
   padding: 0px;
   gap: 32px;
-  width: 299px;
-  height: 101px;
+  /* width: 299px;
+  height: 101px; */
 }
 
 .hero-main-button {
