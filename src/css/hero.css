@@ -63,8 +63,8 @@
   align-items: flex-start;
   padding: 0px;
   gap: 32px;
-  width: 299px;
-  height: 101px;
+  /* width: 299px;
+  height: 101px; */
 }
 
 .hero-main-button {
@@ -165,22 +165,22 @@
     margin-right: 20px;
     margin-bottom: 72px;
   }
-  .hero-container{
+  .hero-container {
     gap: 26px;
     padding-left: 10px;
     padding-right: 10px;
   }
-  .hero-second-title{
+  .hero-second-title {
     width: 265px;
   }
-  .hero-buttons-section{
+  .hero-buttons-section {
     gap: 20px;
   }
-  .hero-main-button{
+  .hero-main-button {
     padding: 8px 18px;
     min-width: 110px;
   }
-  .hero-second-button{
+  .hero-second-button {
     padding: 8px 18px;
     min-width: 129px;
   }
