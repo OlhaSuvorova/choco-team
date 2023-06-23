@@ -15,9 +15,10 @@
 @import url('./reviews.css');
 @import url('./subscribe.css');
 @import url('./footer.css');
+@import url('./all-modal.css');
 
 :root {
-  --main-font-family: 'Montserrat' sans-serif;
+  --main-font-family: 'Montserrat', sans-serif;
   --primary-text-color-theme-light: #111111;
   --primary-text-color-theme-dark: #ffffff;
   --accent-color-orange: #fd9222;

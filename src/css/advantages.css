@@ -1,0 +1,113 @@
+.advantages {
+  padding: 20px 0;
+  background-color: var(--bg-color-dark-purple);
+}
+.container {
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.advantages-main-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+
+  color: var(--primary-text-color-theme-light);
+}
+.advantages-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.advantages-item {
+  width: 100%;
+}
+.advantages-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  margin-bottom: 22px;
+}
+
+.advantages-icon {
+  fill: var(--accent-color-orange);
+}
+
+.advantages-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+  margin-bottom: 18px;
+
+  color: var(--primary-text-color-theme-dark);
+}
+
+/* .advantages-item-pb {
+  padding-bottom: 16px;
+} */
+
+.advantages-text {
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+  min-height: 120px;
+}
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+  .advantages-item {
+    width: 308px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .advantages {
+    padding: 50px 0;
+  }
+  .container {
+    width: 768px;
+    padding: 0 32px;
+  }
+  .advantages-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 32px;
+  }
+  .advantages-item {
+    width: 308px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    /* padding: 0 50px; */
+  }
+  .advantages-list {
+    justify-content: space-between;
+  }
+  .advantages-item {
+    width: 308px;
+    position: relative;
+  }
+  .advantages-item:not(:last-child)::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: -18px;
+    top: 60px;
+    width: 1px;
+    height: 124px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}

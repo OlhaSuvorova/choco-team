@@ -42,6 +42,7 @@ img {
 
 body {
   font-family: var(--main-font-family);
+  background-color: #fafafa;
 }
 
 .section {
