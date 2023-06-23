@@ -31,15 +31,17 @@
   }
 }
 
-.how-it-is-made-img {
-  border-radius: 15px;
-}
-
-/* .how-it-is-made-iframe-video {
+/* .how-it-is-made-img {
   border-radius: 15px;
 } */
 
-/* @media screen and (min-width: 320px) and (max-width: 374px) {
+/* стили видео */
+
+.how-it-is-made-iframe-video {
+  border-radius: 15px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
   .how-it-is-made-iframe-video {
     width: 280px;
     height: 600px;
@@ -57,7 +59,9 @@
   .how-it-is-made-iframe-video {
     width: 614px;
   }
-} */
+}
+
+/* конец стилей видео */
 
 .how-it-is-made-list-container {
   background-color: #fff;
