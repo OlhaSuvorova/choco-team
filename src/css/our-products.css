@@ -1,5 +1,4 @@
 .our-products {
-  position: relative;
   padding-top: 72px;
   padding-bottom: 72px;
 }
@@ -147,7 +146,7 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    overflow: visible;
+    overflow: hidden;
     list-style: none;
     padding: 0;
     z-index: 1;
@@ -196,7 +195,7 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    overflow: visible;
+    overflow: hidden;
     list-style: none;
     padding: 0;
     z-index: 1;
@@ -208,6 +207,7 @@
   display: flex;
   column-gap: 13px;
   justify-content: center;
+  bottom: -40px !important;
 }
 
 .swiper-pagination-bullet {
@@ -233,4 +233,8 @@
 .swiper {
   width: 100% !important;
   margin-bottom: 0px !important;
+}
+
+.container-our-products {
+  position: relative;
 }
