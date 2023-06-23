@@ -227,7 +227,7 @@
   width: 28px;
   height: 13px;
   border-radius: 10px;
-  background: #fd9222;
+  background: var(--accent-color-orange);
 }
 
 .container-our-products {
