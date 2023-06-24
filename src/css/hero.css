@@ -135,6 +135,7 @@
   letter-spacing: -0.03em;
   color: var(--primary-text-color-theme-dark);
 }
+
 .hero-button-scroll {
   display: flex;
   width: 28px;
