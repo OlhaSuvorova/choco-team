@@ -386,28 +386,58 @@
 
 /* ================= scroll-up ================= */
 
-.scroll-up {
-  position: fixed;
-  right: 30px;
-  bottom: 20px;
-  z-index: 300;
-  cursor: pointer;
-  display: none;
+@media screen and (max-width: 767px) {
+  .scroll-up {
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+    z-index: 300;
+    cursor: pointer;
+    display: none;
+  }
+
+  .scroll-up-icon {
+    width: 30px;
+    height: 30px;
+    fill: rgba(253, 146, 34, 0.5);
+    transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: scale(1);
+  }
+
+  .scroll-up-show {
+    display: block;
+  }
+
+  .scroll-up-icon:hover {
+    fill: var(--accent-color-orange);
+    transform: scale(1.1);
+  }
 }
 
-.scroll-up-icon {
-  width: 40px;
-  height: 40px;
-  fill: rgba(253, 146, 34, 0.5);
-  transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
-  transform: scale(1);
-}
+@media screen and (min-width: 768px) {
+  .scroll-up {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    z-index: 300;
+    cursor: pointer;
+    display: none;
+  }
 
-.scroll-up-show {
-  display: block;
-}
+  .scroll-up-icon {
+    width: 40px;
+    height: 40px;
+    fill: rgba(253, 146, 34, 0.5);
+    transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: scale(1);
+  }
 
-.scroll-up-icon:hover {
-  fill: var(--accent-color-orange);
-  transform: scale(1.1);
+  .scroll-up-show {
+    display: block;
+  }
+
+  .scroll-up-icon:hover {
+    fill: var(--accent-color-orange);
+    transform: scale(1.1);
+  }
 }
