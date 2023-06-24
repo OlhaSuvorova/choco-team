@@ -39,27 +39,51 @@
 
 .how-it-is-made-iframe-video {
   border-radius: 15px;
+  display: block;
 }
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .how-it-is-made-iframe-video {
     width: 280px;
-    height: 600px;
+    /* height: 600px; */
   }
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .how-it-is-made-iframe-video {
     width: 335px;
-    height: 600px;
+    height: 500px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .how-it-is-made-iframe-video {
+  .how-it-is-made-iframe-video,
+  .video-item {
     width: 614px;
   }
 }
+
+/* Стили видео Суворова */
+/* .wrapper-video {
+  position: relative;
+  overflow: hidden;
+}
+
+.video-made-owerlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  transform: translatey(100%);
+transition: transform 0.25s ease-in-out;
+}
+
+.wrapper-video:hover .video-made-owerlay {
+  transform: translate(0);
+}
+*/
 
 /* конец стилей видео */
 
@@ -144,7 +168,7 @@
   display: block;
 }
 
-/* .how-it-is-made-play-btn {
+.how-it-is-made-play-btn {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -156,4 +180,4 @@
   background-color: transparent;
   border-radius: 50%;
   border: 1px solid #f5f4f4;
-} */
+}
