@@ -57,7 +57,7 @@
 </symbol>
 
 <symbol id="icon-play-btn" viewBox="0 0 19 20">
-<path fill="#f5f4f4" style="fill:var(--color1, #f5f4f4)" d="M0 20V0l19.048 10L0 20z"/>
+<path d="M0 20V0l19.048 10L0 20z"/>
 </symbol>
 
 <symbol id="icon-close-menu" viewBox="0 0 32 32">
