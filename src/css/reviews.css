@@ -177,9 +177,9 @@
   display: none;
 }
 
-.invisible {
+/* .invisible {
   display: none;
-}
+} */
 
 @media screen and (min-width: 768px) {
   .mobile-invisible {
@@ -210,6 +210,11 @@
 /* button */
 
 .leave_review_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
@@ -224,6 +229,7 @@
   border-radius: 100px;
   cursor: pointer;
   transition: all 250ms ease;
+  margin-top: 50px;
 }
 
 @media screen and (min-width: 768px) {
@@ -488,4 +494,61 @@
 
 .is-hidden {
   display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container-reviews {
+    max-width: 768px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container-reviews {
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-reviews {
+    width: 1200px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* .swiper-pagination-reviews {
+  display: flex;
+  column-gap: 13px;
+  justify-content: center;
+  bottom: -40px !important;
+}
+
+.swiper-pagination-bullet-reviews {
+  display: flex;
+  width: 13px;
+  height: 13px;
+  background-color: var(--primary-text-color-theme-light);
+  border-radius: 50%;
+}
+
+.swiper-pagination-bullet-active {
+  width: 28px;
+  height: 13px;
+  border-radius: 10px;
+  background: var(--accent-color-orange);
+  margin-bottom: 32px;
+} */
+
+.container-reviews {
+  position: relative;
 }

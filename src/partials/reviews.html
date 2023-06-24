@@ -4,67 +4,72 @@
       chocolate <span class="second_part_rewiews_title">is loved</span>
     </h2>
     <!-- slieder -->
-    <div class="swiper mySwiper">
-      <div class="reviews_slieder_container">
-        <!-- swiper-wrapper -->
-        <!-- first card -->
-        <div class="reviews_card swiper-slide">
-          <div class="reviews_image">
-            <img
-              srcset="
-                ./img/review/victoria@1x.png 1x,
-                ./img/review/victoria@2x.png 2x
-              "
-              src="./img/review/victoria@1x.png"
-              alt="victoria dobrzhanska photos"
-              width="80"
-              height="80"
-            />
-          </div>
-          <div class="reviews_description">
-            <span class="reviewer_name">Victoria Dobrzhanska</span>
-            <span class="personal-review"
-              >I love this chocolate bar. Perfect combination of light crispy
-              wafer, covered in a thin layer chocolate.</span
-            >
+    <!-- Slider main container -->
+    <div class="container-reviews swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide reviews_card">
+          <div class="reviews_card">
+            <div class="reviews_image">
+              <img
+                srcset="
+                  ./img/review/victoria@1x.jpg 1x,
+                  ./img/review/victoria@2x.jpg 2x
+                "
+                src="./img/review/victoria@1x.jpg"
+                alt="victoria dobrzhanska photos"
+                width="80"
+                height="80"
+              />
+            </div>
+
+            <div class="reviews_description">
+              <span class="reviewer_name">Victoria Dobrzhanska</span>
+              <span class="personal-review"
+                >I love this chocolate bar. Perfect combination of light crispy
+                wafer, covered in a thin layer chocolate.</span
+              >
+            </div>
           </div>
         </div>
-
-        <!-- second card -->
-
-        <div class="reviews_card mobile-invisible">
+        <div class="swiper-slide reviews_card">
           <div class="reviews_image">
             <img
               class="reviews_image_for_element"
               srcset="
-                ./img/review/nazar@1x.png 1x,
-                ./img/review/nazar@2x.png 2x
+                ./img/review/nazar@1x.jpg 1x,
+                ./img/review/nazar@2x.jpg 2x
               "
-              src="./img/review/nazar@1x.png"
+              src="./img/review/nazar@1x.jpg"
               alt="Nazar Babenko photos"
               width="80"
               height="80"
             />
           </div>
           <div class="reviews_description">
-            <span class="reviewer_name">Nazar Babenko</span>
-            <span class="personal-review"
+            <!-- <span class="reviewer_name">Nazar Babenko</span> -->
+            <h3 class="reviews-name-title">Nazar Babenko</h3>
+            <!-- <span class="personal-review"
               >This chocolate confection is a delight! A delight! The wafer is
               light and crisp, the hazelnut cream is smooth, and the chocolate
               is good.</span
-            >
+            > -->
+            <p class="text-review">This chocolate confection is a delight! A delight! The wafer is
+              light and crisp, the hazelnut cream is smooth, and the chocolate
+              is good.</p>
           </div>
         </div>
-
-        <!-- third card -->
-        <div class="reviews_card mobile-invisible tablet-invisible">
+        <div
+          class="swiper-slide reviews_card mobile-invisible tablet-invisible"
+        >
           <div class="reviews_image">
             <img
               srcset="
-                ./img/review/olena@1x.png 1x,
-                ./img/review/olena@2x.png 2x
+                ./img/review/olena@1x.jpg 1x,
+                ./img/review/olena@2x.jpg 2x
               "
-              src="./img/review/olena@1x.png"
+              src="./img/review/olena@1x.jpg"
               alt="Olena Kampusch photos"
               width="80"
               height="80"
@@ -79,15 +84,14 @@
             >
           </div>
         </div>
-        <!-- four card -->
-        <div class="reviews_card invisible">
+        <div class="swiper-slide reviews_card invisible">
           <div class="reviews_image">
             <img
               srcset="
-                ./img/review/natalia@1x.png 1x,
-                ./img/review/natalia@2x.png 2x
+                ./img/review/natalia@1x.jpg 1x,
+                ./img/review/natalia@2x.jpg 2x
               "
-              src="./img/review/natalia@1x.png"
+              src="./img/review/natalia@1x.jpg"
               alt="Natalia Sus photos"
               width="80"
               height="80"
@@ -102,14 +106,12 @@
             >
           </div>
         </div>
-        <!-- fifth card -->
-
-        <div class="reviews_card invisible">
+        <div class="swiper-slide reviews_card invisible">
           <div class="reviews_image">
             <img
               srcset="
-                ./img/review/danilo@1x.png 1x,
-                ./img/review/danilo@2x.png 2x
+                ./img/review/danilo@1x.jpg 1x,
+                ./img/review/danilo@2x.jpg 2x
               "
               src="./img/review/danilo@1x.jpg"
               alt="Danilo Nottingham photos"
@@ -126,8 +128,7 @@
             >
           </div>
         </div>
-        <!-- sixth card -->
-        <div class="reviews_card invisible">
+        <div class="swiper-slide reviews_card invisible">
           <div class="reviews_image">
             <img
               srcset="
@@ -150,26 +151,33 @@
           </div>
         </div>
       </div>
-    </div>
-    <!-- false pagination -->
+      <!-- If we need pagination -->
+      <!-- <div class="swiper-pagination-reviews">
+        <span class="swiper-pagination-bullet-reviews"></span
+        ><span class="swiper-pagination-bullet-reviews"></span
+        ><span class="swiper-pagination-bullet-reviews"></span
+        ><span class="swiper-pagination-bullet-reviews"></span
+        ><span class="swiper-pagination-bullet-reviews"></span
+        ><span class="swiper-pagination-bullet-reviews"></span>
+      </div> -->
 
-    <!-- <div class="slider_pagination">
+      <!-- <div class="slider_pagination">
       <img src="./img/review/offer_banner.jpg" alt="slide bar" />
     </div> -->
 
-    <!-- button -->
-    <button
-      type="button"
-      class="leave_review_button js-open-modal"
-      data-modal="1"
-    >
-      Leave a review
-    </button>
-  </div>
+      <!-- button -->
+      <button
+        type="button"
+        class="leave_review_button js-open-modal"
+        data-modal="1"
+      >
+        Leave a review
+      </button>
+    </div>
 
-  <!-- LEAVE A REVIEW ABOUT OUR CHOCOLATE -->
+    <!-- LEAVE A REVIEW ABOUT OUR CHOCOLATE -->
 
-  <div class="review_modal modal" data-modal="1">
+    <div class="review_modal modal" data-modal="1">
     <h2 class="review_modal_title">
       LEAVE A REVIEW <br class="space1" />ABOUT <br class="space2" /><span
         class="second_part_review_modal_title"
