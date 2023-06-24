@@ -37,6 +37,12 @@
   margin-bottom: 22px;
 }
 
+.animate__animated.animate__heartBeat {
+  animation-duration: 3500ms;
+  animation-iteration-count: infinite;
+}
+
+
 .advantages-icon {
   fill: var(--accent-color-orange);
 }
