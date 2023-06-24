@@ -180,6 +180,34 @@
     padding: 28px;
   }
 
+  .components-scroll {
+    width: 100%;
+    height: 270px;
+    overflow: auto;
+    
+  }
+
+  .components-scroll::-webkit-scrollbar {
+    width: 6px;
+}
+
+.components-scroll::-webkit-scrollbar-thumb {
+    background-color: rgba(253, 146, 34, 0.5);
+    border-radius: 10px;
+    border: none;
+}
+
+  
+  
+  /* .components-scroll {
+    backface-visibility: hidden;
+    width: 100%;
+    height: 270px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+  } */
+
   .components-overlay-text {
     font-family: var(--main-font-family);
     font-style: normal;
@@ -188,7 +216,7 @@
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: var(--primary-text-color-theme-light);
-    width: 100%;
+    
   }
 
  
@@ -288,7 +316,23 @@
 .overlay-wrapper {
     padding: 20px;
   }
- 
+  .components-scroll {
+    width: 270px;
+    height: 270px;
+    overflow: auto;
+    
+  }
+
+  .components-scroll::-webkit-scrollbar {
+    width: 6px;
+}
+
+.components-scroll::-webkit-scrollbar-thumb {
+    background-color: rgba(253, 146, 34, 0.5);
+    border-radius: 10px;
+    border: none;
+}
+
   .components-btn-wrapper {
     display: flex;
     gap: 6px;
@@ -296,16 +340,10 @@
   }
 
   .components-overlay-text {
-    width: 230px;
+    max-height: 100%;
+    width: 100%;
     overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 9;
-    -webkit-box-orient: vertical;
-    /* text-overflow: ellipsis; */
-  }
-
-  .txt {
-    -webkit-line-clamp: 7;
+   
   }
 
 }
