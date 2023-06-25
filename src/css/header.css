@@ -32,8 +32,11 @@
   align-items: center;
 }
 
+/* ============ анімація на лого ============= */
+
 .logo-text {
   display: inline-block;
+  position: relative;
   margin-right: 4px;
   color: var(--primary-text-color-theme-light);
   font-family: var(--main-font-family);
@@ -42,12 +45,45 @@
   line-height: 1.28;
   letter-spacing: -0.03em;
   text-transform: uppercase;
+  /* background-size: 300%; */
+  background: linear-gradient(
+    left,
+    rgba(12, 12, 11, 1) 0%,
+    rgba(12, 12, 11, 1) 20px,
+    rgba(253, 146, 34, 1) 50%,
+    rgba(12, 12, 11, 1) 80%,
+    rgba(12, 12, 11, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(12, 12, 11, 1) 0%,
+    rgba(12, 12, 11, 1) 20px,
+    rgba(253, 146, 34, 1) 50%,
+    rgba(12, 12, 11, 1) 80%,
+    rgba(12, 12, 11, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200%;
+  animation: animationGradient 5s linear infinite;
+  -webkit-animation: animationGradient 5s linear infinite;
+}
+
+@keyframes animationGradient {
+  0% {
+    background-position: 100% 0%;
+  }
+  100% {
+    background-position: -100% 0%;
+  }
 }
 
 .logo-italic {
   display: inline-block;
   font-style: italic;
 }
+/* ===================== */
 
 .logo-svg {
   display: inline-flex;
