@@ -456,6 +456,12 @@ div.review-modal {
   border: 1px solid rgba(46, 47, 66, 0.2);
   outline: transparent;
   overflow: scroll;
+  
+}
+.modal-user-message:hover,
+.modal-user-message:focus {
+  outline: none;
+  filter: none;
 }
 
 @media screen and (min-width: 768px) {
