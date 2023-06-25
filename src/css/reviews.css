@@ -1,8 +1,4 @@
 .reviews-content-container {
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
   padding: 0 16px;
@@ -260,13 +256,14 @@
 div.review-modal {
   position: fixed;
   background-color: #fafafa;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
   padding: 32px 24px 32px 24px;
   pointer-events: auto;
   width: 311px;
   max-width: 311px;
-  
+
   min-height: 471px;
   z-index: 30;
   overflow: auto;
@@ -278,9 +275,7 @@ div.review-modal {
     width: 517px;
     padding: 40px;
   }
-  
 }
-
 
 .review-modal-title {
   font-family: var(--main-font-family);
@@ -309,14 +304,13 @@ div.review-modal {
   }
 }
 
-  /* .space1 {
+/* .space1 {
     display: none;
   }
 
   .space2 {
     display: inline-block;
   } */
-
 
 .second-part-review-modal-title {
   color: #fd9222;
@@ -459,7 +453,6 @@ div.review-modal {
   color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.2);
   outline: transparent;
-  
 }
 .modal-user-message:hover,
 .modal-user-message:focus {
