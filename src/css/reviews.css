@@ -268,6 +268,7 @@ div.review-modal {
   pointer-events: auto;
   width: 311px;
   max-width: 311px;
+  
   min-height: 471px;
   z-index: 30;
   overflow: auto;
@@ -289,10 +290,12 @@ div.review-modal {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: -0.03em;
+  width: 255px;
   text-align: left;
   text-transform: uppercase;
   color: #111111;
   margin-bottom: 32px;
+  word-break: break-word;
 }
 
 @media screen and (min-width: 768px) {
