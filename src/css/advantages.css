@@ -2,7 +2,7 @@
   padding: 20px 0;
   background-color: var(--bg-color-dark-purple);
 }
-.container {
+.container-advantages {
   width: 100%;
   padding: 0 20px;
   margin: 0 auto;
@@ -42,7 +42,6 @@
   animation-iteration-count: infinite;
 }
 
-
 .advantages-icon {
   fill: var(--accent-color-orange);
 }
@@ -68,7 +67,7 @@
   min-height: 120px;
 }
 @media screen and (min-width: 375px) {
-  .container {
+  .container-advantages {
     width: 375px;
   }
   .advantages-item {
@@ -80,7 +79,7 @@
   .advantages {
     padding: 50px 0;
   }
-  .container {
+  .container-advantages {
     width: 768px;
     padding: 0 32px;
   }
@@ -95,7 +94,7 @@
   }
 }
 @media screen and (min-width: 1200px) {
-  .container {
+  .container-advantages {
     width: 1200px;
     /* padding: 0 50px; */
   }
