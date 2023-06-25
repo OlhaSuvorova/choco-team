@@ -437,6 +437,10 @@ div.review-modal {
   .svg-and-phone-code::after {
     left: 78px;
   }
+  .review-backdrop-close-button {
+    top: 14px;
+    right: 14px;
+  }
 }
 
 .modal-user-message {
