@@ -440,6 +440,8 @@ div.review-modal {
   .review-backdrop-close-button {
     top: 14px;
     right: 14px;
+    width: 24px;
+    height: 24px;
   }
 }
 
