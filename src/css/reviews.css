@@ -1,29 +1,17 @@
-/* container */
 .reviews-content-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: #fafafa;
-  flex-wrap: wrap;
-  /* overflow: hidden; */
   margin-left: auto;
   margin-right: auto;
   padding: 0 16px;
   padding-top: 72px;
   padding-bottom: 72px;
+}
 
-  /* @media screen and (max-width: 767px) {
-    width: 335px;
+@media screen and (max-width: 767px) {
+  .reviews-section {
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
   }
-
-  @media screen and (min-width: 768px) {
-    width: 768px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    width: 1200px;
-  } */
 }
 
 @media screen and (min-width: 768px) {
@@ -156,6 +144,12 @@
   max-width: 335px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .reviews-card {
+    max-width: 300px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .reviews-card {
     max-width: 344px;
@@ -259,28 +253,26 @@
   /* overflow-y: scroll; */
 }
 
-.review-modal {
-  display: flex;
-  flex-direction: column;
-  min-width: 311px;
-  min-height: 471px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(1);
-  background: #fafafa;
+div.review-modal {
+  position: fixed;
+  background-color: #fafafa;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
-  transition: transform 250ms ease;
   padding: 32px 24px 32px 24px;
-  overflow-y: scroll;
+  pointer-events: auto;
+  width: 311px;
+  max-width: 311px;
+
+  min-height: 471px;
+  z-index: 30;
+  overflow: auto;
 }
 
 @media screen and (min-width: 768px) {
-  .review-modal {
+  div.review-modal {
     min-width: 517px;
-    min-height: 628px;
+    width: 517px;
     padding: 40px;
   }
 }
@@ -291,28 +283,34 @@
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: -0.03em;
+  width: 255px;
   text-align: left;
   text-transform: uppercase;
   color: #111111;
   margin-bottom: 32px;
+  word-break: break-word;
 }
 
 @media screen and (min-width: 768px) {
   .review-modal-title {
     margin-bottom: 40px;
-
+    width: 298px;
     font-size: 24px;
     line-height: 1.17;
+    word-break: break-word;
   }
+  .review-modal-title br {
+    display: none;
+  }
+}
 
-  /* .space1 {
+/* .space1 {
     display: none;
   }
 
   .space2 {
     display: inline-block;
   } */
-}
 
 .second-part-review-modal-title {
   color: #fd9222;
@@ -431,6 +429,12 @@
   .svg-and-phone-code::after {
     left: 78px;
   }
+  .review-backdrop-close-button {
+    top: 14px;
+    right: 14px;
+    width: 24px;
+    height: 24px;
+  }
 }
 
 .modal-user-message {
@@ -449,7 +453,11 @@
   color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.2);
   outline: transparent;
-  overflow: scroll;
+}
+.modal-user-message:hover,
+.modal-user-message:focus {
+  outline: none;
+  filter: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -498,13 +506,18 @@
     padding-right: 32px;
     padding-left: 32px;
   }
+  .review-modal-form-submit-button {
+    width: 117px;
+    height: 45px;
+    padding: 14px 40px;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .container-reviews {
     max-width: 375px;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
     margin-left: auto;
     margin-right: auto;
   }
@@ -517,6 +530,11 @@
     padding-right: 32px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .review-modal-form-submit-button {
+    width: 117px;
+    height: 45px;
+    padding: 14px 40px;
   }
 }
 
