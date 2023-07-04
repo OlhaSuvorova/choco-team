@@ -137,6 +137,43 @@ hr {
   background-size: 100% 2px;
 }
 
+/* ===============Sign=============== */
+
+.footer-created {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.footer-created-text-top {
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.footer-created-text-bottom {
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+}
+
+.footer-created-img {
+  width: 24px;
+  height: 24px;
+  fill: var(--accent-color-orange);
+  margin: 0 5px;
+}
+.choco-team-link {
+  margin-left: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--accent-color-orange);
+}
+
 @media screen and (min-width: 768px) {
   .container-footer {
     width: 768px;
@@ -176,6 +213,43 @@ hr {
   .social-list-footer {
     display: flex;
     gap: 18px;
+  }
+
+  /* ===============Sign=============== */
+
+  .footer-created {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  .footer-created-text-top {
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+
+  .footer-created-text-bottom {
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+  }
+
+  .footer-created-img {
+    width: 24px;
+    height: 24px;
+    fill: var(--accent-color-orange);
+    margin: 0 5px;
+  }
+  .choco-team-link {
+    margin-left: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--accent-color-orange);
   }
 
   /* =========== підкресслення навігації=========== */
@@ -224,5 +298,41 @@ hr {
   .part-two-footer {
     gap: 0;
     justify-content: space-between;
+  }
+  /* ===============Sign=============== */
+
+  .footer-created {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  .footer-created-text-top {
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+
+  .footer-created-text-bottom {
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+  }
+
+  .footer-created-img {
+    width: 24px;
+    height: 24px;
+    fill: var(--accent-color-orange);
+    margin: 0 5px;
+  }
+  .choco-team-link {
+    margin-left: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--accent-color-orange);
   }
 }
